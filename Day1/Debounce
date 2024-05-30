@@ -1,4 +1,5 @@
 ❓What is Debounce ?
+
 Debounce in simple Terms is a technique used in programming to make sure that a function (like answering the door) is only called after a certain amount of time has passed since the last time it was called. This way, it avoids doing the same thing over and over again in quick succession.
 
 ❓ When to Use Debounce ?
@@ -14,5 +15,4 @@ When implementing a search input that fetches results from an API as the user ty
 
 💫 Solution: Debounce!
 
-Here’s how you can implement debounce in a form validation scenario:
-
+To make it easier to understand, I've attached an image in the folder that demonstrates how you can use debounce to optimize API calls in a search input.
