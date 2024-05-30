@@ -1,1 +1,18 @@
+❓What is Debounce ?
+Debounce in simple Terms is a technique used in programming to make sure that a function (like answering the door) is only called after a certain amount of time has passed since the last time it was called. This way, it avoids doing the same thing over and over again in quick succession.
+
+❓ When to Use Debounce ?
+🔍 Search input fields: To minimize API calls while the user is typing.
+💻 Window resize events: To prevent excessive layout calculations during continuous resizing.
+📜 Scrolling events: To optimize performance when tracking scroll positions or implementing infinite scrolling.
+
+Let’s explore a real-world use case of Debounce in web development: 
+_________________________________________________________________________
+Optimizing API calls in search functionality.
+
+When implementing a search input that fetches results from an API as the user types, it’s crucial to prevent making an API request for every keystroke. This can overwhelm the server and degrade performance.
+
+💫 Solution: Debounce!
+
+Here’s how you can implement debounce in a form validation scenario:
 
