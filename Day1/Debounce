@@ -15,4 +15,4 @@ When implementing a search input that fetches results from an API as the user ty
 
 💫 Solution: Debounce!
 
-To make it easier to understand, I've attached an image in the folder that demonstrates how you can use debounce to optimize API calls in a search input.
+To make it easier to understand, I've attached an js file in the folder that demonstrates how you can use debounce to optimize API calls in a search input.
