@@ -1,1 +1,15 @@
+❓What is Currying ?
+ It is a powerful technique that transforms a function with multiple arguments into a series of functions, each taking a single argument. 
+This creates a chain of functions, where each function returns another function until the final result is achieved.
 
+❓When to Use Currying ?
+▶ Function Reusability: Currying allows us to create reusable functions by fixing some arguments and leaving others to be specified later.
+👩‍💻 Code Readability: It can make our code more readable and expressive by breaking down complex operations into simpler, more understandable steps.
+◀ Event Handling: In event-driven programming, currying can be useful for creating handlers that are more specific and tailored to particular events.
+
+Let’s explore a real-world use case of Currying in web development:
+________________________________________________________________________
+Form validation is a common task in web development, where we need to validate user input against various rules.
+Currying can help create more flexible and reusable validation functions.
+
+To make it easier to understand, I've attached an js file in the folder demonstrating how we can use currying to streamline form validation.
