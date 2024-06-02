@@ -1,1 +1,17 @@
+Currying is one of the most important concepts and also most asked JavaScript interview question.
+When currying, placeholders can be incredibly useful. They allows us to specify which arguments will be supplied later, providing more flexibility.
 
+❓When to Use Currying with Placeholders?
+💡 Currying with placeholders is especially useful when we need to create flexible, reusable, and modular code. 
+💡It shines in scenarios where functions have multiple parameters that need to be applied partially or in a different order.
+
+Let’s explore a real-world use case of Currying with Placeholders in web development:
+________________________________________________________________________
+Imagine we are developing a web application where users can set their preferences for notifications. He/she can choose the type of notification, the medium (email, SMS, or push), and the time of day they prefer to receive these notifications.
+
+🛠️To make it easier to understand how currying with placeholders can make this task simpler and more flexible, I've attached a Js File in the folder
+
+Placeholder Definition: We use Symbol to define a placeholder.
+Curry Function: The curry function takes another function fn and returns a new function curried.
+Arguments Handling: The curried function checks if it has received enough arguments to invoke the original function. If placeholders are present, it waits for additional arguments.
+Combining Arguments: When additional arguments are supplied, they replace the placeholders, allowing for partial application.
