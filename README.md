@@ -5,4 +5,5 @@ This repository contains a collection of concise code examples and explanations 
 ## Topics Covered
 - Debounce
 - Throttle
-- Currying 
+- Currying
+- Currying with Placeholders
