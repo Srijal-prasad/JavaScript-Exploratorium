@@ -1,1 +1,15 @@
+Deep flattening refers to the process of converting a nested structure (like a list of lists) into a single-level structure (a single list). This is particularly useful when dealing with hierarchical, complex data where we need to simplify the structure for easier analysis and processing.
+
+In easy words, Deep flattening means that the array would be completely flattened.
+
+Example:
+Input: [1,2,3,4,5,[6,[7,8,9]]] 
+Output: [1,2,3,4,5,6,7,8,9]
+
+📝 Use Cases:
+🔅 Task Management: Simplifying a complex to-do list into a single list of tasks to ensure none are overlooked.
+🔅Data Analysis: Analyzing hierarchical data structures by converting them into flat structures for easier processing.
+🔅UI Display: Displaying all tasks in a user interface where a flat list is more user-friendly than a nested one.
+
+🛠️To make it easier to understand how this can be implemented, I've attached an js file in the folder
 
