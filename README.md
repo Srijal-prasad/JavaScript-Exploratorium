@@ -7,3 +7,4 @@ This repository contains a collection of concise code examples and explanations 
 - Throttle
 - Currying
 - Currying with Placeholders
+- Deep Flattening
