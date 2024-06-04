@@ -1,1 +1,6 @@
+Negative indexing allows accessing array elements from the end by using negative numbers. For example, -1 refers to the last element, -2 to the second last, and so on. Unfortunately, JavaScript doesn't directly support this feature. But with proxies, we can emulate it seamlessly!
 
+❓ How Proxies Work ?
+Proxies can be thought of as guardians that stand between us and our array. They let us change the behavior of the array by intercepting every action we take on it. It resembles a magical mirror that magically reflects our behavior but with a twist!
+
+Below is a simple implementation demonstrating how to enable negative indexing using proxies. For a clearer view of the code, please refer to the attached js file in the folder
