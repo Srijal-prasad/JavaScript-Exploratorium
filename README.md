@@ -8,3 +8,4 @@ This repository contains a collection of concise code examples and explanations 
 - Currying
 - Currying with Placeholders
 - Deep Flattening
+- Negative Indexing in JavaScript Arrays with Proxies
