@@ -10,3 +10,4 @@ This repository contains a collection of concise code examples and explanations 
 - Deep Flattening
 - Negative Indexing in JavaScript Arrays with Proxies
 - Pipe Method
+- Auto Retry Promises
