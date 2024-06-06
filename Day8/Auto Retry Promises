@@ -1,1 +1,20 @@
+Understanding Auto Retry Promises
+
+In modern web development, handling asynchronous operations efficiently is crucial. Promises are a Basic part of this process, enabling us to manage async code in a more readable and maintainable way. 
+However, what happens when a promise fails? This is where auto retry promises come into picture.
+
+❓ What is an Auto Retry Promise?
+Its is a design pattern used to automatically retry a failed promise a specified number of times before ultimately rejecting it.
+
+❓When to Use Auto Retry Promises?
+1️⃣ File Operations: In cases where file systems may be temporarily unavailable or busy, retries can ensure the operation completes successfully.
+2️⃣ Network Requests: Network instability can cause temporary failures. Retrying can often succeed without user intervention.
+3️⃣ Database Operations: Transient database errors can be mitigated by retrying the operation.
+
+Let’s explore an implementation example
+_________________________________________________________________
+Ensuring Successful File Operations with Auto Retry Promises:
+
+File operations can sometimes fail due to temporary issues with file systems or networked storage. Auto retry promises offer a solution by retrying failed operations until they succeed or a retry limit is reached.
+For a clearer view of the code, please refer to the attached js file in the folder
 
