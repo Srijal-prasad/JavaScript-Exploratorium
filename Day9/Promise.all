@@ -1,1 +1,13 @@
+Understanding and Implementing Promise.all in JavaScript
 
+JavaScript's asynchronous programming can be tricky, but Promise.all is a powerful technique that simplifies handling multiple promises simultaneously.
+
+❓ What is Promise.all ?
+Promise.all is actually a promise that takes an array of promises as an input (an iterable). Then it gets resolved when all the promises get resolved or any one of them gets rejected.
+
+❓Why Use Promise.all?
+➡Concurrency: Execute multiple asynchronous operations concurrently, rather than sequentially.
+➡Efficiency: Reduces the total waiting time by performing operations in parallel.
+➡ Simplicity: Easier to manage and handle multiple promises in a single block of code.
+
+Please refer to the attached js file in the folder to check the basic example of implementation.
