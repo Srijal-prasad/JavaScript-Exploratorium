@@ -11,3 +11,4 @@ This repository contains a collection of concise code examples and explanations 
 - Negative Indexing in JavaScript Arrays with Proxies
 - Pipe Method
 - Auto Retry Promises
+- Promise.all 
