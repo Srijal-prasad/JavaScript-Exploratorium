@@ -1,1 +1,9 @@
+Understanding and Implementing Promise.allSettled in JavaScript
 
+Promise.allSettled is a promise method that takes an array of promises and returns a single promise that resolves after all of the input promises have either resolved or rejected. The returned promise resolves with an array of objects, each representing the outcome of each promise.
+In easy terms, Its a method in that allows us to handle multiple promises concurrently, regardless of whether they resolve or reject. This is particularly useful when we need the results of all promises, including those that fail.
+
+❓ Why Use Promise.allSettled?
+Unlike Promise.all, which fails fast if any promise rejects, Promise.allSettled waits for all promises to settle (either resolve or reject) and then provides the outcome of each one. 
+
+Please refer to the attached js file in the folder to check the basic example of implementation.
