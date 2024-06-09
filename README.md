@@ -13,3 +13,4 @@ This repository contains a collection of concise code examples and explanations 
 - Auto Retry Promises
 - Promise.all
 - Promise.allSettled
+- Promise.any
