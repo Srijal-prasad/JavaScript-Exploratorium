@@ -14,3 +14,4 @@ This repository contains a collection of concise code examples and explanations 
 - Promise.all
 - Promise.allSettled
 - Promise.any
+- Promise.race
