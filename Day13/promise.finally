@@ -1,1 +1,14 @@
+Unveiling JavaScript​: The Power of Promise.finally
 
+Promise.finally is a method that allows us to execute a piece of code when a promise is settled, regardless of whether it was resolved or rejected. It provides a way to run clean-up or finalizing operations after promise has completed its work.
+
+❓ Why Use Promise.finally?
+1️⃣ Simplicity: Simplifies our code by consolidating clean-up tasks that would otherwise be duplicated in both then and catch blocks.
+2️⃣ Clean-Up: Perfect for clean-up actions like hiding loading indicators, closing connections, or resetting states.
+3️⃣ Consistency: Ensures that specific code runs no matter what the outcome of the promise is.
+
+💡 Real-Life Use Case
+_________________________
+Suppose we are developing a web app with user authentication and we want to show a loading spinner while the authentication is in process and hide it once the process is completed, regardless of whether it succeeded or failed.
+
+Below is an example implementation demonstrating how to use Promise.finally to handle this scenario efficiently. For a clearer view of the code, please refer to the attached js file in the folder. 🖼
