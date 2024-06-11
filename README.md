@@ -15,3 +15,4 @@ This repository contains a collection of concise code examples and explanations 
 - Promise.allSettled
 - Promise.any
 - Promise.race
+- Promise.finally
