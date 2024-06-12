@@ -1,1 +1,15 @@
+Let’s dive into what Throttling Promises by Batching means, why it's useful, and how to implement it.
 
+❓ What is Throttling Promises by Batching?
+It is a method where we control the number of concurrent promises executed at any given time. This is especially useful when we need to deal with a large number of async operations, such as API calls, to avoid overloading the server or client.
+
+❓ Why Use Throttling Promises by Batching?
+Improved Performance: Optimizes app performance by controlling the rate of promise execution.
+Prevent Overload: Avoid overwhelming servers or clients with too many concurrent requests.
+Resource Management: Efficiently manage system resources by limiting concurrent operations.
+
+💡 Real-Life Use Case
+_________________________
+Imagine we are building an application that needs to send promotional emails to a large number of users. To avoid hitting email rate limits, we can throttle the email sending process.
+
+Below is an example implementation of throttling promises by batching for sending bulk emails. For a clearer view of the code, please refer to the attached js file in the folder. 🖼
