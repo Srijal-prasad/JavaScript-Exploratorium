@@ -16,3 +16,4 @@ This repository contains a collection of concise code examples and explanations 
 - Promise.any
 - Promise.race
 - Promise.finally
+- Throttling Promises by Batching
