@@ -1,1 +1,20 @@
+Exploring JavaScript​: Implementing Custom Deep Equal
 
+❓ What is Deep Equal?
+A deep equality check ensures that two arrays or objects are identical by recursively comparing all their properties or elements. Unlike a shallow equality check (using ===), which only compares the references, deep equality checks the actual content.
+
+❓Why Use Custom Deep Equal?
+State Management: Useful in state comparison for libraries like React.
+Complex Data Structures: When dealing with nested objects or arrays.
+Testing: Essential for writing robust tests that involve complex data.
+
+Let's Explore a real life use case💡
+____________________________________
+Imagine we are building a web app with a multi-step form. Users can navigate back and forth between steps, and we want to save their progress only if they make changes. By using a deep equality check, we can compare the current form data with the previously saved data to determine if any updates are necessary.
+
+For a clearer view of the code, please refer to the attached js file in the folder. 🖼️
+
+By implementing this, we can handle complex data comparisons effectively.
+I hope this post helps you understand the importance and implementation of deep equality checks in JavaScript. 
+
+Happy coding! 🚀
