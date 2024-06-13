@@ -17,3 +17,4 @@ This repository contains a collection of concise code examples and explanations 
 - Promise.race
 - Promise.finally
 - Throttling Promises by Batching
+- deepEqual
