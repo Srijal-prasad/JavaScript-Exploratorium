@@ -18,3 +18,4 @@ This repository contains a collection of concise code examples and explanations 
 - Promise.finally
 - Throttling Promises by Batching
 - deepEqual
+- Factorization problem
