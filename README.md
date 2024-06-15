@@ -19,3 +19,4 @@ This repository contains a collection of concise code examples and explanations 
 - Throttling Promises by Batching
 - deepEqual
 - Factorization problem
+- Object.assign
