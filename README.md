@@ -20,3 +20,4 @@ This repository contains a collection of concise code examples and explanations 
 - deepEqual
 - Factorization problem
 - Object.assign
+- NaN(Not a number)
