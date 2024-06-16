@@ -1,1 +1,13 @@
+🌟 Understanding NaN in JavaScript 🌟
+
+👉 NaN is a special value in JavaScript's Number type that is returned when:
+Performing arithmetic operations where the result is not a valid number (e.g., dividing zero by zero).
+👉Attempting to convert a non-numeric string or value to a number.
+
+Example:
+let res= 0 / 0; // This operation results in NaN
+console.log(res); // Outputs: NaN
+console.log(typeof res); // Outputs: "number"
+
+Understanding NaN is crucial when working with numeric operations in JavaScript. Remember, NaN is not equal to any value, including itself, and using isNaN() or Number.isNaN() can help handle and identify these special cases effectively.
 
