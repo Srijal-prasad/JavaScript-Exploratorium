@@ -21,3 +21,4 @@ This repository contains a collection of concise code examples and explanations 
 - Factorization problem
 - Object.assign
 - NaN(Not a number)
+- Generator Functions
