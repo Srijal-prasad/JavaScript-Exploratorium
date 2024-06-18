@@ -1,1 +1,18 @@
+Understanding Destructuring in JavaScript
 
+JavaScript destructuring is a powerful and elegant syntax for extracting values from arrays or properties from objects into distinct variables. 
+It was introduced in ES6. It simplifies our code and makes it more readable. 
+
+1️⃣ Destructuring Arrays
+Destructuring arrays is straightforward. we can assign variables to elements in an array using a syntax that mirrors the array structure.
+
+2️⃣ Destructuring Objects
+Object destructuring allows us to extract properties from objects and assign them to variables with matching names.
+
+3️⃣ Default Values
+If a property or element doesn't exist, you can set a default value to avoid undefined.
+
+4️⃣ Nested Destructuring
+Destructuring can handle nested arrays and objects, making it easy to extract deep properties.
+
+Do Check out the images for basic example implementations🖼
