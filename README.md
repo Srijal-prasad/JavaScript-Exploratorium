@@ -22,4 +22,5 @@ This repository contains a collection of concise code examples and explanations 
 - Object.assign
 - NaN(Not a number)
 - Generator Functions
-- Destructuring 
+- Destructuring
+- Arrow Functions
