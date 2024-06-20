@@ -24,3 +24,4 @@ This repository contains a collection of concise code examples and explanations 
 - Generator Functions
 - Destructuring
 - Arrow Functions
+- Spread Operator
