@@ -1,1 +1,11 @@
+Did you know? JavaScript promises can exist in three states:
+1️⃣ Pending 🤔- The operation is still in progress.
+2️⃣ Fulfilled 🎉- The operation was successful.
+3️⃣ Rejected ❌- The operation failed.
 
+Additionally, a promise is considered Settled when it is either fulfilled or rejected.
+
+Understanding these states helps us in writing cleaner, more efficient code. 
+So, Next time you're working with async operations, remember these states!
+
+Keep coding and make those promises work for you!
