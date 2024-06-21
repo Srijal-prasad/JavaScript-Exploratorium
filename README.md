@@ -25,3 +25,4 @@ This repository contains a collection of concise code examples and explanations 
 - Destructuring
 - Arrow Functions
 - Spread Operator
+- States in promises
