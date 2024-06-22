@@ -1,1 +1,15 @@
+Understanding Prototypes in JavaScript
 
+A prototype is an object from which other objects inherit properties. Every JavaScript function has a prototype property that is used to build the __proto__ property of instances created by that function. This chain of inheritance is known as the prototype chain.
+
+❓ The Prototype Chain?
+When we try to access a property on an object, JavaScript first looks for the property on the object itself. If it doesn't find it there, it looks at the object's prototype, and then the prototype's prototype, and so on, until it either finds the property or reaches the end of the prototype chain (null).
+
+❓Why Use Prototype?
+1. Memory Efficiency: Methods are shared across all instances, saving memory.
+2. Dynamic Flexibility: Methods can be added or modified at runtime.
+3. Inheritance: Provides a straightforward way to implement inheritance.
+
+Prototypes are a cornerstone of JavaScript’s inheritance system, providing a way to share properties and methods across objects. By understanding and utilizing prototypes, we can write more efficient, maintainable, and powerful JavaScript code.
+
+Do check out the attahced js file for basic example of how prototypes works. 📷 
