@@ -26,3 +26,4 @@ This repository contains a collection of concise code examples and explanations 
 - Arrow Functions
 - Spread Operator
 - States in promises
+- Prototype
