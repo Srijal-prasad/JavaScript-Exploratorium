@@ -27,3 +27,4 @@ This repository contains a collection of concise code examples and explanations 
 - Spread Operator
 - States in promises
 - Prototype
+- Temporal Dead Zone (TDZ)
