@@ -28,3 +28,4 @@ This repository contains a collection of concise code examples and explanations 
 - States in promises
 - Prototype
 - Temporal Dead Zone (TDZ)
+- rest parameter
