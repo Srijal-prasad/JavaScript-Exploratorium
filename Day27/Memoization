@@ -1,1 +1,11 @@
+Understanding Memoization in JavaScript
 
+Memoization is a form of caching where the results of expensive function calls are stored, so that subsequent calls with the same arguments can return the cached result instead of recalculating. This can significantly improve the performance of functions that are called repeatedly with the same arguments.
+
+❔ Why Use Memoization?
+Memoization can be particularly useful in scenarios such as:
+🔹 Recursive Functions: Functions like the Fibonacci sequence or factorial calculations, which involve a lot of redundant calculations.
+🔹 Expensive Computations: Functions that perform resource-intensive operations like complex mathematical calculations, data processing, or API calls.
+🔹 Performance Optimization: In any situation where optimizing performance is critical, especially in real-time applications.
+
+Memoization is a simple yet powerful technique to optimize the performance of our JS app. By caching the results of expensive function calls, we can significantly reduce the time complexity of recursive algorithms and improve the efficiency of our code.
