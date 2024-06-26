@@ -1,1 +1,12 @@
+Understanding Template Literals in JavaScript
 
+Template literals are a way to work with strings in JavaScript. They are enclosed by backticks (`) instead of single (' ') or double (" ") quotes. This new syntax allows for multi-line strings, embedded expressions, and easier string interpolation.
+
+Basic Syntax:
+______________
+const name = "Sri";
+const message = `Hello, ${name}!`;
+console.log(message); // Output: Hello, Sri!
+
+Conclusion:
+Template literals are a simple yet powerful feature in JavaScript that enhance the way we work with strings. By providing a more readable and expressive syntax for string manipulation, they can make our code cleaner and more maintainable.
