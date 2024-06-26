@@ -30,3 +30,4 @@ This repository contains a collection of concise code examples and explanations 
 - Temporal Dead Zone (TDZ)
 - rest parameter
 - Memoization
+- Template Literals
