@@ -15,7 +15,7 @@ Before diving into the implementation, let's review how map() works:
 Implementing our own map() Function
 ___________________________________________
 
-Do check out the attached image for our own map function Implementation.
+Do check out the attached js file in the folder for our own map function Implementation.
 
 Conclusion:
 Implementing Array.prototype.map is a great exercise to deepen our understanding of higher-order functions in JavaScript. 
