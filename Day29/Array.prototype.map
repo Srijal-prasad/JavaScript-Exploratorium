@@ -1,1 +1,22 @@
+Implementing Array.prototype.map in JavaScript
 
+Understanding the map() Method
+_____________________________________
+Before diving into the implementation, let's review how map() works:
+🔵 Syntax: array.map(callback(currentValue[, index[, array]])[, thisArg])
+🔵Parameters:
+ 🔹 callback: Function to execute on each element of the array, taking three arguments:
+🔹currentValue: The current element being processed in the array.
+🔹index (optional): The index of the current element being processed.
+🔹array (optional): The array map was called upon.
+🔹thisArg (optional): Value to use as this when executing callback.
+🔹Return value: A new array with each element being the result of the callback function.
+
+Implementing our own map() Function
+___________________________________________
+
+Do check out the attached image for our own map function Implementation.
+
+Conclusion:
+Implementing Array.prototype.map is a great exercise to deepen our understanding of higher-order functions in JavaScript. 
+By creating our own version, we gain insight into how such methods work under the hood and can customize them to suit specific needs. 
