@@ -31,4 +31,5 @@ This repository contains a collection of concise code examples and explanations 
 - rest parameter
 - Memoization
 - Template Literals
-- Array.prototype.map 
+- Array.prototype.map
+- Array.prototype.filter 
