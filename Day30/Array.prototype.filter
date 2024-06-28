@@ -1,1 +1,23 @@
+Implementing Array.prototype.filter in JavaScript
 
+Understanding the filter() Method
+______________________________________
+Before diving into the implementation, let's review how filter() works:
+🔵Syntax: array.filter(callback(element[, index[, array]])[, thisArg])
+
+🔵Parameters:
+🔹callback: Function to execute on each element of the array, taking three arguments:
+🔹element: The current element being processed in the array.
+🔹index (optional): The index of the current element being processed.
+array (optional): The array filter was called upon.
+🔹thisArg (optional): Value to use as this when executing callback.
+Return value: A new array with all elements that pass the test implemented by the provided function.
+
+Implementing our own filter() Function
+___________________________________________
+
+Do check out the attached js file in the folder for our own map function Implementation.
+
+Conclusion:
+Implementing Array.prototype.filter is a great way to understand how higher-order functions work in JavaScript. 
+By creating our own version, we gain insight into how such methods are designed and can customize them to fit specific needs.
