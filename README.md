@@ -32,4 +32,5 @@ This repository contains a collection of concise code examples and explanations 
 - Memoization
 - Template Literals
 - Array.prototype.map
-- Array.prototype.filter 
+- Array.prototype.filter
+- ES6: New Features we need to know!
