@@ -1,1 +1,13 @@
+Understanding Implicit and Explicit Coercion in JavaScript
 
+Coercion refers to the conversion of values from one type to another. This can happen in two ways: implicitly and explicitly.
+
+▪ Implicit Coercion occurs automatically by JavaScript during runtime. 
+ For example, if we try to add a number to a string, JavaScript will convert the number to a string without you needing to specify it:
+ let result = '5' + 5; // "55"
+
+▪Explicit Coercion is when we manually convert a value from one type to another. This provides more control and clarity in our code. For instance, we can use the Number function to explicitly convert a string to a number:
+ let result = Number('5') + 5; // 10
+
+Understanding the differences between implicit and explicit coercion helps write more predictable and error-free code. 
+Always prefer explicit coercion for better readability and to avoid unexpected behaviors in your programs.
