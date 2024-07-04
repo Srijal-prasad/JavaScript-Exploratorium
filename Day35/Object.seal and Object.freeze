@@ -1,1 +1,14 @@
+Understanding the Difference Between Object.seal and Object.freeze in JavaScript
 
+▪ Object.seal()
+The Object.seal() method is used to seal an object. A sealed object prevents new properties from being added and marks all existing properties as non-configurable. This means that while we cannot add or delete properties, we can still modify the values of the existing properties.
+
+▪Object.freeze()
+The Object.freeze() method is a step further than Object.seal(). It makes an object immutable. Once an object is frozen, we cannot add, delete, or modify its properties. In essence, a frozen object is completely locked down.
+
+❓ When to Use Each Method ?
+ we can use Object.seal() when we want to prevent the addition or deletion of properties but still need to update the existing properties. It’s useful when we need to maintain a certain structure of the object while allowing some flexibility in the values.
+
+we can use Object.freeze() when we want to completely lock down the object, making it immutable. This is particularly useful for creating constants or ensuring that an object remains unchanged throughout the lifecycle of our application.
+
+Do check out the js file in the folder for basic examples. 📷 
