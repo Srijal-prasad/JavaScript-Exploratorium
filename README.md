@@ -34,4 +34,5 @@ This repository contains a collection of concise code examples and explanations 
 - Array.prototype.map
 - Array.prototype.filter
 - ES6: New Features we need to know!
-- Coercion 
+- Coercion
+- Difference Between Object.seal and Object.freeze 
