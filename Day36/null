@@ -1,1 +1,25 @@
+Why Does typeof null Return "object" and How to Check if a Value is null
+
+❓ Why typeof null Returns "object"
+The reason behind typeof null returning "object" dates back to the early days of JavaScript. In JavaScript, null is a primitive value that represents the intentional absence of any object value. However, due to a bug in the original implementation of JavaScript, null was incorrectly classified as an object.
+
+Here's a simple explanation:
+In JavaScript, the typeof operator is used to determine the type of a value.
+The typeof operator was designed to return "object" for objects.
+Unfortunately, null was classified as an object, resulting in typeof null returning "object".
+This behavior has been retained for backward compatibility, even though it's recognized as a mistake.
+
+❓How to Check if a Value is null
+Given the above quirk, using typeof to check for null isn't effective. Instead, the strict equality operator === should be used.
+Example :
+ let value = null;
+ if (value === null) {
+ console.log('The value is null');
+ } else {
+ console.log('The value is not null');
+ }
+In this example, value === null accurately checks if the value is null.
+
+💫 Conclusion:
+While typeof null returning "object" is a confusing aspect of JavaScript, understanding the historical context helps clarify why it behaves this way.
 
