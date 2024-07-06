@@ -1,1 +1,41 @@
+Understanding the Differences: setTimeout, setImmediate, and process.nextTick
+
+1️⃣ setTimeout
+setTimeout schedules a function to be executed after a specified delay (in milliseconds). It's a standard JavaScript function available in both browsers and 
+
+ ▪ When to use:
+When we need to execute a function after a certain delay.
+Useful for creating delays between function calls.
+
+ ▪Example:
+ setTimeout(() => {
+ console.log('Executed after 100ms');
+ }, 100);
+
+2️⃣ setImmediate
+setImmediate schedules a function to be executed on the next iteration of the event loop, after the current poll phase. It's specific to Node.js.
+
+ ▪When to use:
+When we need to execute a function as soon as possible after I/O events.
+Useful for breaking up long operations and preventing blocking.
+
+ ▪Example:
+ setImmediate(() => {
+ console.log('Executed immediately after I/O events');
+ });
+
+3️⃣ process.nextTick
+process.nextTick schedules a callback to be invoked in the same phase of the event loop, before the next I/O event. It's also specific to Node.js.
+
+ ▪When to use:
+When we need to execute a function immediately after the current operation, but before any I/O events.
+Useful for deferring execution to ensure a function runs after the current stack but before any I/O tasks.
+
+ ▪Example:
+ process.nextTick(() => {
+ console.log('Executed at the end of the current operation');
+ });
+
+✨ Visualizing the Event Loop
+To better understand how these functions fit into the event loop, consider the attached js file in the folder.
 
