@@ -36,4 +36,5 @@ This repository contains a collection of concise code examples and explanations 
 - ES6: New Features we need to know!
 - Coercion
 - Difference Between Object.seal and Object.freeze
-- Why Does typeof null Return "object" and How to Check if a Value is null 
+- Why Does typeof null Return "object" and How to Check if a Value is null
+- setTimeout, setImmediate, and process.nextTick
