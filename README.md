@@ -38,3 +38,4 @@ This repository contains a collection of concise code examples and explanations 
 - Difference Between Object.seal and Object.freeze
 - Why Does typeof null Return "object" and How to Check if a Value is null
 - setTimeout, setImmediate, and process.nextTick
+- Implementing a Custom call() Method
