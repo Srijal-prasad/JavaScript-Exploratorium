@@ -1,1 +1,11 @@
+call() method allows us to invoke a function with a specified this context and arguments. 
 
+Please check the attached js file in the folder for an example of how to implement a custom call() method:
+
+🔹 Key Steps:
+1️⃣ Context Handling: Default to the global object if the context is null or undefined.
+2️⃣ Unique Property: Use a Symbol to avoid property name conflicts.
+3️⃣Function Invocation: Invoke the function with the provided context and arguments.
+4️⃣ Cleanup: Remove the function from the context object after invocation.
+
+Implementing a custom call() method helps us understand the inner workings of function context and invocation in JavaScript, enhancing our grasp of advanced JavaScript concepts.
