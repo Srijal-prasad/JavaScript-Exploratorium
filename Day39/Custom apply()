@@ -1,1 +1,13 @@
+Implementing a Custom apply() Method in JavaScript
 
+apply() method allows us to invoke a function with a specified this context and an array of arguments.
+
+Please check the attached js file in the folder for an example of how to implement a custom apply() method.
+
+🔹Key Points:
+1️⃣ Context Handling: Ensure the context defaults to the global object (globalThis) if it's null or undefined.
+2️⃣Unique Property: Use a Symbol to create a unique property on the context to avoid conflicts.
+3️⃣Function Invocation: Invoke the function with the provided context and arguments.
+ 4️⃣Cleanup: Remove the function from the context object after invocation to clean up
+
+Implementing a custom apply() method provides valuable insights into how function context and invocation work in JavaScript. By creating our own version, we gain a deeper understanding of these concepts, which is crucial for mastering asynchronous programming and optimizing code execution in JavaScript.
