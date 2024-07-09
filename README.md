@@ -40,3 +40,4 @@ This repository contains a collection of concise code examples and explanations 
 - setTimeout, setImmediate, and process.nextTick
 - Implementing a Custom call() Method
 - Implementing a Custom apply() Method
+- Implementing a Custom bind() Method
