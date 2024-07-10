@@ -1,1 +1,10 @@
+Understanding Deep Copy and Shallow Copy in JavaScript
 
+▪ Shallow Copy
+A shallow copy means that only one level of the object or array is copied. If the object contains other objects or arrays, the references to those nested objects or arrays are copied, not the objects themselves. This means changes to the nested objects will reflect in both the original and the copied object.
+
+▪ Deep Copy
+A deep copy means that all levels of the object or array are copied. This includes nested objects and arrays, which are also duplicated rather than copied by reference. Changes to the nested objects in the copied object do not affect the original object.
+
+▪Conclusion
+Understanding the difference between shallow copy and deep copy is crucial when dealing with complex objects in JavaScript. Shallow copies are faster but share references to nested objects, while deep copies are more thorough but can be slower and more resource-intensive.
