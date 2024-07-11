@@ -42,3 +42,4 @@ This repository contains a collection of concise code examples and explanations 
 - Implementing a Custom apply() Method
 - Implementing a Custom bind() Method
 - Deep Copy and Shallow Copy
+- Client-Side Rendering & Server-Side Rendering
