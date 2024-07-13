@@ -1,1 +1,31 @@
+When working with the Document Object Model (DOM), understanding how events propagate is crucial for managing complex interactions on our web pages. 
 
+Two important concepts in this regard are event bubbling and event capturing.
+
+
+
+◾ Event Propagation Phases
+
+Event propagation in the DOM happens in three phases:
+
+
+
+🔹 Capturing Phase: The event starts from the root and travels down to the target element.
+
+🔹Target Phase: The event reaches the target element.
+
+🔹Bubbling Phase: The event bubbles up from the target element back to the root.
+
+◾Event Capturing
+
+In this phase, also known as trickling, the event moves from the outermost element to the target element. We can attach event listeners to intercept events during this phase.
+
+
+
+◾Event Bubbling
+
+In this phase, the event starts at the target element and bubbles up to the outermost elements. This is the default behavior for most events in JavaScript.
+
+
+
+Understanding and utilizing event bubbling and capturing can greatly enhance our ability to manage events in JavaScript.
