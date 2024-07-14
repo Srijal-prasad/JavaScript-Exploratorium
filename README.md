@@ -45,3 +45,4 @@ This repository contains a collection of concise code examples and explanations 
 - Client-Side Rendering & Server-Side Rendering
 - Automatic Semicolon Insertion (ASI)
 - Event Bubbling and Capturing
+- Handling Errors
