@@ -46,3 +46,4 @@ This repository contains a collection of concise code examples and explanations 
 - Automatic Semicolon Insertion (ASI)
 - Event Bubbling and Capturing
 - Handling Errors
+- Regular Expressions
