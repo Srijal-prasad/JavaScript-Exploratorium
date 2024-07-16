@@ -1,1 +1,34 @@
+❓ What are Regular Expressions?
+Regular expressions are sequences of characters that form a search pattern. This pattern can be used for various string operations such as searching, replacing, and extracting.
 
+🔷 we can create a regular expression in two ways:
+🔹 Literal Notation:
+ let regex = /pattern/flags;
+🔹Constructor Function:
+ let regex = new RegExp('pattern', 'flags');
+
+🔷Common Patterns and Flags
+
+🔹Patterns:
+ `.` : Matches any character except newline.
+\d : Matches any digit (equivalent to [0-9]).
+\w : Matches any alphanumeric character including underscore (equivalent to [A-Za-z0-9_]).
+\s : Matches any whitespace character (spaces, tabs, line breaks).
+^ : Matches the start of a string.
+$ : Matches the end of a string.
+[...] : Matches any one character inside the brackets.
+(abc) : Matches the exact sequence of characters "abc".
+a|b : Matches either a or b.
+
+🔹Flags:
+g : Global search (find all matches rather than stopping after the first match).
+i : Case-insensitive search.
+m : Multi-line search.
+
+🔷Practical Use Cases
+↔ Form Validation: Regular expressions are commonly used to validate user inputs such as email addresses, phone numbers, postal codes, etc.
+↔Search and Replace: Easily search and replace text in strings. For example, replacing all instances of a word in a document.
+↔Data Extraction: Extract specific patterns from a text, such as extracting dates, phone numbers, or hashtags from a given string.
+
+⭐ Conclusion
+Regular expressions are powerful tools that can greatly simplify text processing tasks . Whether we are validating forms, searching for patterns, or manipulating strings, mastering regex can make our code more efficient and effective
