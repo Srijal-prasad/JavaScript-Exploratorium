@@ -47,3 +47,4 @@ This repository contains a collection of concise code examples and explanations 
 - Event Bubbling and Capturing
 - Handling Errors
 - Regular Expressions
+- Best Practices for Async/Await
