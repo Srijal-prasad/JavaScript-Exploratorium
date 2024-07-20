@@ -48,3 +48,4 @@ This repository contains a collection of concise code examples and explanations 
 - Handling Errors
 - Regular Expressions
 - Best Practices for Async/Await
+- Microtasks and Macrotasks
