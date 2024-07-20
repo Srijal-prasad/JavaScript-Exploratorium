@@ -1,1 +1,28 @@
+Understanding the event loop and how tasks are managed is crucial for writing efficient and bug-free code. Two key concepts in this area are microtasks and macrotasks.
 
+❓ What are Macrotasks?
+Macrotasks, also known as tasks, are scheduled for execution in the next iteration of the event loop. Each time the event loop runs, it handles one macrotask from the queue, then all the microtasks.
+ 
+Common examples of macrotasks include:
+🔹 setTimeout
+🔹setInterval
+🔹setImmediate (Node.js)
+🔹UI rendering and user input events
+
+❓What are Microtasks?
+Microtasks are smaller, fast-executing tasks that are processed after the currently executing script and before the next macrotask. Microtasks ensure that any operations that must happen immediately after the current operation are executed promptly. 
+
+Common examples include:
+🔹Promises (Promise.then, Promise.catch, Promise.finally)
+🔹MutationObserver callbacks
+🔹queueMicrotask
+
+❓How the Event Loop Works?
+1️⃣ Execute any pending macrotasks: This includes tasks like setTimeout or event callbacks.
+2️⃣ Execute all microtasks: This step is crucial as it ensures that promise resolutions and other microtask callbacks are handled before the event loop continues.
+3️⃣ Render the UI: If there are visual updates to be made, the browser renders them after executing microtasks.
+
+▪ Key Takeaways:
+✒ Microtasks have higher priority and are executed before any macrotask after the current script execution completes.
+✒Use microtasks for operations that need to be executed immediately after the current operation.
+✒Macrotasks are useful for scheduling code execution in the future, allowing the event loop to handle other tasks and render the UI in the meantime.
