@@ -49,3 +49,4 @@ This repository contains a collection of concise code examples and explanations 
 - Regular Expressions
 - Best Practices for Async/Await
 - Microtasks and Macrotasks
+- Event Delegation
