@@ -1,1 +1,22 @@
+Memory management is a crucial aspect of programming that ensures efficient utilization of memory resources. In JavaScript, memory management is handled automatically, thanks to its garbage collector.
 
+1. Memory Allocation
+Memory allocation occurs when variables are declared, objects and arrays are created, and functions are defined.
+
+2. Memory Usage
+Memory usage refers to how the allocated memory is used during the execution of the program. JS uses two types of memory:
+▪ Stack Memory: Used for static memory allocation. It stores primitive values (numbers, strings) and references to objects and functions.
+▪ Heap Memory: Used for dynamic memory allocation. It stores objects, arrays, and functions.
+
+3. Garbage Collection
+JavaScript's garbage collector automatically frees up memory that is no longer needed. It uses algorithms to determine which objects are no longer reachable from the root (global objects, currently executing functions, etc.) and can be safely removed.
+▪The most common garbage collection algorithm in JavaScript is the mark-and-sweep algorithm
+
+4. Avoiding Memory Leaks
+A memory leak occurs when memory that is no longer needed, is not released, leading to increased memory usage over time. 
+
+5. Tools for Memory Management
+Modern browsers provide tools for monitoring memory usage and detecting memory leaks. For example, Chrome DevTools offers a Memory panel where we can take heap snapshots and analyze memory allocations.
+
+Conclusion:
+Understanding memory management can help us write more efficient code and avoid common pitfalls like memory leaks.
