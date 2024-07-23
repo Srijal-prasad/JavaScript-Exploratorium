@@ -1,1 +1,23 @@
+Proxies are a powerful feature introduced in ECMAScript 6 (ES6) that allows us to intercept and redefine fundamental operations on objects. With Proxies, we can add custom behavior to objects in a flexible and dynamic way. 
 
+❓ What is a Proxy?
+A Proxy object wraps around another object (called the target) and intercepts operations performed on that target. we can define custom behavior for operations like getting, setting, and deleting properties, among others.
+
+🔷 Creating a Proxy
+Here's how to create a basic Proxy:
+const target = {};
+const handler = {
+ get: function(target, prop, receiver) {
+ return prop in target ? target[prop] : `Property ${prop} does not exist`;
+ }
+};
+const proxy = new Proxy(target, handler);
+console.log(proxy.someProperty); // "Property someProperty does not exist"
+
+💡 Real-Life Example : Logging Property Access 
+_____________________________________________________
+Imagine we have a product object, and we want to log a message each time a property of this object is accessed. This can help us understand how the object is being used and identify any unexpected access patterns.
+📷 Check out the attached js file in the folder for a more detailed implementation 🖼
+
+Conclusion:
+Proxies provide a flexible and dynamic way to add custom behavior to objects. By logging property access, we can gain valuable insights into how your objects are being used, making it easier to debug and monitor your applications.
