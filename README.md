@@ -51,4 +51,5 @@ This repository contains a collection of concise code examples and explanations 
 - Microtasks and Macrotasks
 - Event Delegation
 - Memory Management
-- JavaScript Proxies 
+- JavaScript Proxies
+- WeakMap and WeakSet
