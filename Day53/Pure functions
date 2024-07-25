@@ -1,0 +1,6 @@
+Pure functions are a core concept in functional programming. 
+A pure function is a function that:
+🔹Returns the same result for the same input.
+🔹Has no side effects, meaning it doesn't alter any external state.
+
+Pure functions are predictable and easy to test, making our code more reliable and maintainable. By embracing pure functions, we can write cleaner and more efficient code.
