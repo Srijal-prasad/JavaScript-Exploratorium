@@ -54,3 +54,4 @@ This repository contains a collection of concise code examples and explanations 
 - JavaScript Proxies
 - WeakMap and WeakSet
 - Pure functions
+- Web Workers
