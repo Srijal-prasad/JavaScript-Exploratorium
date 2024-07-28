@@ -55,3 +55,4 @@ This repository contains a collection of concise code examples and explanations 
 - WeakMap and WeakSet
 - Pure functions
 - Web Workers
+- Advanced Array Methods
