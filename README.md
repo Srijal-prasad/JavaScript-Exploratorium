@@ -57,3 +57,4 @@ This repository contains a collection of concise code examples and explanations 
 - Web Workers
 - Advanced Array Methods
 - LocalStorage and SessionStorage
+-  Binary and Hexadecimal Literals
