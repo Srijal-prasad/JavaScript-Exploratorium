@@ -1,0 +1,17 @@
+Js provides a convenient way to work with binary and hexadecimal numbers using literals, making it easier to handle different numerical bases directly in our code.
+
+🔹 Binary Literals
+we can define binary numbers in JavaScript by prefixing the number with 0b or 0B:
+
+ const binaryNum = 0b1010; // 10 in decimal
+
+🔹Hexadecimal Literals
+Hexadecimal numbers are defined by prefixing the number with 0x or 0X:
+
+ const hexNum = 0xA; // 10 in decimal
+
+🔹Why use them?
+Binary literals are often used in low-level programming, such as bitwise operations, while hexadecimal literals are common in color codes and memory addresses. These literals improve readability and maintainability, especially when dealing with specific bit patterns or when interacting with hardware-level APIs.
+
+🚀 Pro Tip:
+Keep these literals in your toolkit for cleaner, more expressive code when dealing with binary data or when precise bit manipulation is required!
