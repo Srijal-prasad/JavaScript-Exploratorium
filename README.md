@@ -58,3 +58,4 @@ This repository contains a collection of concise code examples and explanations 
 - Advanced Array Methods
 - LocalStorage and SessionStorage
 -  Binary and Hexadecimal Literals
+-  Decorators
